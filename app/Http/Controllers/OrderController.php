@@ -24,9 +24,10 @@ class OrderController extends Controller
         ]);
 
         $user = $request->user();
-        $user->orders()->create([
-                        'total' => 2,
-                        'status' => 3,
+        $user->orders()
+                ->create([
+                    'total' => 2,
+                    'status' => 3,
         ]);
     }
 }
