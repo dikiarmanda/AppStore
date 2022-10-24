@@ -83,6 +83,7 @@
                                     <th scope="col">Details</th>
                                     <th scope="col">Stock</th>
                                     <th scope="col">Price</th>
+                                    <th scope="col" colspan="2">Opsi</th>
                                 </tr>
                             </thead>
                             <tbody>
